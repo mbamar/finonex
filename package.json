@@ -1,0 +1,21 @@
+{
+  "name": "finonex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server":  "node server.js",
+    "client":  "node client.js",
+    "process": "node data_processor.js"
+  },
+  "author": "meir amar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "pg": "^8.11.3",
+    "readline": "^1.3.0"
+  }
+}
